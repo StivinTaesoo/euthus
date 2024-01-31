@@ -289,6 +289,25 @@ footer p {
     text-align: right;
 }
 
+/* ============== ANIMATION =================== */
+@keyframes showContent {
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.container h1,
+.container p,
+.container .btn-outline,
+.image {
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 0.7s ease-in-out 1 forwards;
+}
+
 @media (max-width: 750px) {
     .section-one {
         height: auto;
