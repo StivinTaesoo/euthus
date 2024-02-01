@@ -85,6 +85,10 @@ nav {
 .article-container {
     width: 100%;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .article {
@@ -92,7 +96,7 @@ nav {
     padding: 30px;
     border-radius: 8px;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -320,7 +324,7 @@ footer p {
 }
 
 /* ////////////// Pending Animation ////////////////// */
-.fade-in {
+/* .fade-in.active {
     background: #957dad;
     height: 300px;
     width: 300px;
@@ -333,13 +337,13 @@ footer p {
 .active {
     opacity: 4;
     transform: translateY(0);
-}
+} */
 
 /* ==================== MEDIA QUERY ==================================== */
 
 @media (max-width: 750px) {
     .section-one {
-        height: auto;
+        height: 100vh;
     }
     nav {
         padding: 2% 5%;

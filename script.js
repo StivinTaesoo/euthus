@@ -1,21 +1,21 @@
-const elements = document.querySelectorAll(".fade-in");
+// const elements = document.querySelectorAll(".fade-in");
 
-const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.4,
-};
+// const options = {
+//     root: null,
+//     // rootMargin: "0px",
+//     threshold: 0.4,
+// };
 
-const callbacks = (entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add("active");
-        }
-    });
-};
+// const callbacks = (entries) => {
+//     entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add("active");
+//         }
+//     });
+// };
 
-let observer = new IntersectionObserver(cb, options);
+// let observer = new IntersectionObserver(cb, options);
 
-elements.forEach((element) => {
-    observer.observe(element);
-});
+// elements.forEach((element) => {
+//     observer.observe(element);
+// });
