@@ -42,7 +42,7 @@ nav {
     color: #000;
 }
 .section-one {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(
             rgba(6, 71, 192, 0.9),
@@ -84,7 +84,7 @@ nav {
 
 .article-container {
     width: 100%;
-    margin-top: 2rem;
+    margin: 4rem auto;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -215,9 +215,9 @@ nav {
 
 .section-4 {
     width: 100%;
-    margin: 6rem auto;
+    margin: 0 auto;
     background: #f1f1f1;
-    padding: 2% 10%;
+    padding: 3% 10%;
 }
 
 .section-4 h1 {
@@ -343,7 +343,7 @@ footer p {
 
 @media (max-width: 750px) {
     .section-one {
-        height: 100vh;
+        height: 80vh;
     }
     nav {
         padding: 2% 5%;
@@ -409,9 +409,9 @@ footer p {
     }
 
     .section-4 {
-        margin: 3rem auto;
+        margin: 0 auto;
         font-size: 16px;
-        padding: 5%;
+        padding: 2.5rem 5%;
     }
     .section-4 h1 {
         font-size: 20px;
