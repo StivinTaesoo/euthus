@@ -57,6 +57,23 @@ nav {
     justify-content: center;
     z-index: 0;
 }
+/* register Page */
+.hero-section {
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(
+            rgba(6, 71, 192, 0.9),
+            rgba(6, 71, 192, 0.8)
+        ),
+        url(img/premium.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -112,7 +129,16 @@ nav {
     color: #fff;
     text-shadow: 0 2px 2px #000;
 }
-
+.text a {
+    /* text-decoration: none; */
+    color: white;
+}
+.special-package {
+    text-shadow: none;
+}
+.special-package:hover {
+    color: yellow;
+}
 .text h1 {
     font-size: 8vmin;
 }
