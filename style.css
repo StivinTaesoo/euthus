@@ -131,13 +131,13 @@ nav {
 }
 .text a {
     /* text-decoration: none; */
-    color: white;
+    color: yellow;
 }
 .special-package {
     text-shadow: none;
 }
 .special-package:hover {
-    color: yellow;
+    color: white;
 }
 .text h1 {
     font-size: 8vmin;
