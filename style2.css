@@ -140,6 +140,9 @@ ol li {
     .mini-container {
         width: 90%;
     }
+    .img-cont {
+        height: 200px;
+    }
     .img-cont::after {
         font-size: 30px;
     }
