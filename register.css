@@ -34,7 +34,7 @@ body {
     width: 50%;
 }
 
-.wrapper p {
+p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -43,4 +43,31 @@ body {
 .mx-auto {
     margin: 1rem auto;
     text-align: center;
+}
+.w-80 {
+    width: 80%;
+}
+.text-left {
+    text-align: left;
+}
+.p-left {
+    padding-left: 20px;
+}
+
+.grey {
+    background: #f1f1f1;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+li {
+    line-height: 1.6;
+    font-size: 18px;
+}
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
