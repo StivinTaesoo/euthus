@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
 }
 
 body {
     width: 100%;
+    font-family: Montserrat, sans-serif;
 }
 
 nav {
@@ -151,7 +152,7 @@ nav {
 
 .btn {
     padding: 10px 40px;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
     background: orangered;
     color: #fff;
@@ -330,7 +331,7 @@ footer p {
 
 .container h1,
 .container p,
-.container .btn-outline,
+.container .btn,
 .image {
     transform: translateY(100px);
     filter: blur(20px);
